@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guessing Game</h1>
+        <h2>Guess a number between 1 and 100</h2>
+
+        <form name="myform" onsubmit="return check(event);">
+            <input type="number" name="guess" placeholder="Which number?">
+            <button id="guessbtn" type="submit">Guess</button>
+        </form>
+
+        <div class="score">
+            Score: <span id="myscore">100</span>
+        </div>
+        <div id="msg"></div>
+
+        <button type="button" onclick="resetGame()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
