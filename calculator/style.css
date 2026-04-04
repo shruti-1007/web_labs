@@ -1,0 +1,75 @@
+*{
+    margin: auto;
+   
+
+    
+}
+body{
+    background-color: rgb(235, 226, 241);
+}
+.main{
+    height: 320px;
+    width: 550px;
+    background-color: rgb(127, 145, 201);
+    padding: 20px;
+    border-radius: 10px;
+}
+.row {
+    display: flex;        /* IMPORTANT */
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.row span {
+    flex: 1;              /* each button takes equal space */
+}
+
+.row button {
+    width: 100%;          /* fill the span completely */
+    height: 50px;
+    font-size: 18px;
+}
+.screen{
+    height: 150px;
+    width: 590px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: thistle;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align:center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(64, 28, 56);
+}
+.screen {
+  position: relative;       /* parent container must be relative */
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+.now {
+  position: absolute;       /* now we can position inside screen */
+  bottom: 5px;              /* distance from bottom */
+  right: 5px;               /* distance from right */
+  font-size: 24px;
+  font-size: xx-large;
+}
+button{
+    border-radius: 20px;
+}
+.body{
+    height: 530px;
+    width: 620px;
+    background-color: rgb(138, 112, 164);
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
