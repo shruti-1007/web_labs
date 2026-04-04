@@ -1,7 +1,16 @@
 *{
-    margin: auto;
-   
-
+    margin: auto;  
+}
+body{
+    background-color: rgb(235, 226, 241);
+}
+.body{
+    height: 530px;
+    width: 620px;
+    background-color: rgb(138, 112, 164);
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
     
 }
 body{
@@ -15,7 +24,7 @@ body{
     border-radius: 10px;
 }
 .row {
-    display: flex;        /* IMPORTANT */
+    display: flex;       
     gap: 5px;
     margin-bottom: 5px;
 }
@@ -37,8 +46,12 @@ body{
     background-color: thistle;
     border-radius: 10px;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: large;
     font-family: 'Courier New', Courier, monospace;
+    position: relative;       /* parent container must be relative */
+    padding: 5px;
+    box-sizing: border-box;
+  
 }
 h1{
     text-align:center;
@@ -47,13 +60,6 @@ h1{
     font-family:Arial, Helvetica, sans-serif;
     color:rgb(64, 28, 56);
 }
-.screen {
-  position: relative;       /* parent container must be relative */
-  padding: 5px;
-  box-sizing: border-box;
-  
-}
-
 .now {
   position: absolute;       /* now we can position inside screen */
   bottom: 5px;              /* distance from bottom */
@@ -63,13 +69,4 @@ h1{
 }
 button{
     border-radius: 20px;
-}
-.body{
-    height: 530px;
-    width: 620px;
-    background-color: rgb(138, 112, 164);
-    padding: 10px;
-    padding-top: 20px;
-    border-radius: 20px;
-    
 }
