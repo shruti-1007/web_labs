@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Marks & Grade Analyzer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Student Marks & Grade Analyzer</h1>
+    <div class="form">
+      <h2>Insert Student Details</h2>
+      <form id="studentForm" onsubmit="return getData(event);">
+        <input type="text" name="fname" placeholder="Student Name" required />
+        <input type="number" name="fmaths" placeholder="Math Marks" required />
+        <input
+          type="number"
+          name="fscience"
+          placeholder="Science Marks"
+          required
+        />
+        <input
+          type="number"
+          name="fenglish"
+          placeholder="English Marks"
+          required
+        />
+        <input
+          type="number"
+          name="fcomp"
+          placeholder="Cmputer Marks"
+          required
+        />
+        <input
+          type="number"
+          name="fsocial"
+          placeholder="Social Studies Marks"
+          required
+        />
+        <input
+          type="number"
+          name="facc"
+          placeholder="Accounts Marks"
+          required
+        />
+        <br />
+        <button type="submit">Add Student</button>
+      </form>
+    </div>
+
+    <div class="table">
+      <table id="resultTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>English</th>
+            <th>Computer</th>
+            <th>Social Studies</th>
+            <th>Accounts</th>
+            <th>Total</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+* {
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.pass {
+  background-color: #c8f7c5; /* green for pass */
+}
+
+.fail {
+  background-color: #f7c5c5; /* red for fail */
+}
+.form {
+  width: 500px;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: rgb(214, 224, 220);
+  padding: 20px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+}
+form input {
+  margin: 5px; /* gap between inputs */
+  padding: 8px; /* make inputs a bit bigger */
+  font-size: 16px; /* better readability */
+}
+table {
+  width: 100%;
+  border-collapse: collapse; /*removes double borders */
+  background-color: aliceblue;
+}
+
+th,
+td {
+  border: 1px solid black; /* Adds border to each cell */
+  padding: 8px;
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  background-color: #eceaea;
+}
+button {
+  border-radius: 5px;
+  height: 50px;
+  width: 170px;
+  margin-left: 120px;
+  background-color: rgb(192, 221, 246);
+  font-size: larger;
+}
+.table {
+  margin-left: 20px;
+  margin-right: 20px;
+}
