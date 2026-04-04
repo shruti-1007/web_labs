@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div class="mytask">
+      <h1>My Tasks</h1>
+     
+    </div>
+    <div class="stat">
+      <span id="completed">
+        <h2>Tasks Completed</h2>
+        <div id="completednum" ></div>
+      </span>
+      <span id="pending">
+        <h2>Pending</h2>
+        <div id="pendingnum"></div>
+      </span>
+    </div>
+    <div class="form">
+      <form name="addtask" onsubmit="return getTask(event);">
+        <input type="text" name="newTask" placeholder="Add New Task" />
+        <span><button id="addtask">Add Task</button></span>
+      </form>
+    </div>
+    <div class="filterbtn">
+      <button id="all">All</button>
+      <button id="pendingbtn">Pending</button>
+      <button id="completedbtn">Completed</button>
+    </div>
+    <div id="tasklist"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
